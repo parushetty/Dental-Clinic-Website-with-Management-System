@@ -1,0 +1,224 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Tourism</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://rawgit.com/OwlCarousel2/OwlCarousel2/develop/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/tourism.css' %}">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+</head>
+
+{% block content %}
+<body>
+
+    <!-- navbar -->
+
+        <div class="container-fluid">
+    <div class="navhead">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link"  href="./index.html" style="font-size:20px;"
+              style="font-family:Georgia, 'Times New Roman', Times, serif;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html" style="font-size:20px;"
+              style="font-family:Georgia, 'Times New Roman', Times, serif;">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./index.html" style="font-size:20px;"
+              style="font-family:Georgia, 'Times New Roman', Times, serif;">Treatments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html" style="font-size:20px;"
+              style="font-family:Georgia, 'Times New Roman', Times, serif;">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./DENTAL TOURISM.html" style="font-size:20px;"
+              style="font-family:Georgia, 'Times New Roman', Times, serif;">Dental Tourism</a>
+            </li>
+            
+            
+          
+          </ul>
+          <img src="{% static 'images/logo.png' %}" alt="trulli" width="23%" height="40%">
+
+          <div class="contactnav">
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'admin:index' %}" style="font-size:20px;"
+                  style="font-family:Georgia, 'Times New Roman', Times, serif;">Admin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html" style="font-size:20px;"
+                style="font-family:Georgia, 'Times New Roman', Times, serif;">Contact us</a>
+        </li>
+      </div>
+          <div class="btn">
+            <a href="./appointment.html"><button class="btn btn-outline-success button" type="submit">Book Appointment</button></a>
+          </div>
+        </div>
+       
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      </div>
+    </nav>
+</div>
+    <!-- end navbar -->
+<br>
+<br>
+<br>
+
+
+    <!-- head -->
+   <div class="bannersec">
+    <img src="{% static 'images/s1.jpg' %}" alt="trulli">
+   </div>
+
+    
+    <!-- end head -->
+
+    <!-- heading -->
+    <div id="Treatments" class="Service1">
+      <p class="heading">
+        <b> Why Choose Shrine Dental Care<br>for Dental Tourism?</b>
+      </p>
+    </div>
+    
+    <section class="hero-section">
+      <div class="card-grid">
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(https://img.freepik.com/premium-photo/old-woman-drive-yellow-scoter_862994-27647.jpg?size=626&ext=jpg&ga=GA1.2.384229379.1682571253&semt=sph)"></div>
+          <div class="card__content">
+            
+            <h3 class="card__heading" style="text-align: center;">Scenic Location</h3>
+            <h6 class="subheading-card" style="color:greenyellow" style="text-align: center;" style="font-family: 'Courier New', Courier, monospace;"> Our clinic is nestled in the heart of Pondicherry's tourist area, allowing you to enjoy the stunning beaches and explore the vibrant culture while receiving top-quality dental treatment.</h6>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(https://img.freepik.com/premium-photo/young-mixed-race-doctor-woman-holding-dollars-isolated-white-background_1187-319243.jpg?size=626&ext=jpg&ga=GA1.2.384229379.1682571253&semt=ais)"></div>
+          <div class="card__content">
+            
+            <h3 class="card__heading" style="text-align: center;">Affordable Pricing</h3>
+            <h6 class="subheading-card" style="color:greenyellow" style="text-align: center;" style="font-family: 'Courier New', Courier, monospace;"> We understand the importance of affordability, and that's why we offer competitive prices without compromising on the quality of care. Dental tourism at Shrine Dental Care is cost-effective and accessible.</h6>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(https://img.freepik.com/premium-photo/dentist-injects-patient-gum-anesthetize-teeth-treatment-oral-cavity-dental-care-high-quality-photo_173815-15417.jpg?size=626&ext=jpg&ga=GA1.2.384229379.1682571253&semt=ais)"></div>
+          <div class="card__content">
+            
+            <h3 class="card__heading" style="text-align: center;">Superior Dental Care</h3>
+            <h6 class="subheading-card" style="color:greenyellow" style="text-align: center;" style="font-family: 'Courier New', Courier, monospace;"> At Shrine Dental Care, we take pride in delivering the highest standard of dental treatment. Our experienced team of dentists is dedicated to ensuring you receive the best quality care possible.</h6>
+          </div>
+        </li>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(https://img.freepik.com/free-photo/dentist-with-patient-visit_1303-14050.jpg?size=626&ext=jpg&ga=GA1.1.384229379.1682571253&semt=ais)"></div>
+          <div class="card__content">
+           
+            <h3 class="card__heading" style="text-align: center;">Comprehensive Services</h3>
+            <h6 class="subheading-card" style="color:greenyellow" style="text-align: center;" style="font-family: 'Courier New', Courier, monospace;">The range of our dental services offered, including general dentistry, cosmetic dentistry, oral surgery, orthodontics, etc. Ensure patients know they can get all their dental needs met in one place.</h6>
+          </div>
+        </a>
+    </section>
+      
+
+    <!-- end heading -->
+
+    <!-- book -->
+    <div id="Treatments" class="Service1">
+      <h4 class="heading2">
+        <b> Experience Dental Tourism <br>At Its Best!</b>
+      </h4>
+      <h6 class="subheading" style="text-align:center;">
+        Combine your dental needs with a memorable trip to Pondicherry. <br>Our clinic provides a seamless dental tourism experience,ensuring your oral health and <br>overall well-being are in excellent hands.Whether you're here for a beach holiday or to explore the city's rich heritage, <br>Shrine Dental Care makes your dental tourism journey hassle-free and rewarding.
+      </h6>
+    </div>
+    <!-- end book -->
+
+
+    <!-- appoint -->
+
+    <div id="Treatments" class="Service1">
+      <h4 class="heading2">
+        <b>Book Your Dental<br>Tourism Experience Today</b>
+      </h4>
+      <h6 class="subheading2" style="text-align:center;">
+        Discover why Shrine Dental Care is the best dental clinic for dental tourism in India. <br>Schedule your appointment now to embark on a journey towards<br>a healthier smile while enjoying the beauty of Pondicherry.<br>We look forward to providing you with top-notch dental care amidst the charm of this incredible tourist destination.<br>Your dental health and unforgettable memories are our priorities!
+      </h6>
+      <a href="./appointment.html"><button class="bubbly-button">Book An Appoinment!</button></a>
+    </div>
+    <!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>Our Goal</h6>
+          <p class="text-justify">Our goal is to provide enduring, cost-effective, and fulfilling dental care that goes beyond our patients' expectations for their dental treatment.</p>
+          <h6>Our Mission</h6>
+          <p class="text-justify">Our aim is to reach remarkable heights in the field of Dentistry by continuously advancing, upholding quality, showing compassion, and delivering affordable dental treatments.</p>
+        
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Categories</h6>
+          <ul class="footer-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html">About Us</a></li>
+            <li><a href="./index.html">Treatment</a></li>
+            <li><a href="./DENTAL TOURISM.html">Dental Tourism</a></li>
+            <li><a href="./index.html">Testimonial</a></li>
+            <li><a href="./index.html">Contact Us</a></li>
+            <li><a href="./appointment.html">Appointment</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html">About Us</a></li>
+            <li><a href="./index.html">Treatment</a></li>
+            <li><a href="./DENTAL TOURISM.html">Dental Tourism</a></li>
+            <li><a href="./index.html">Testimonial</a></li>
+            <li><a href="./index.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+       <a href="#">Shrine Dental Care</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+
+    </div>
+</body>
+</html>
+
+{% endblock content %}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    /* Reset some default styles for better consistency */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Center the login form vertically and horizontally */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+/* Style the form container */
+.login-form form {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Style the header */
+.login-form h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the form fields */
+.login-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the login button */
+.login-form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the "Forgot Password" link */
+.login-form p {
+    margin-top: 10px;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+</head>
+<body>
+    <div class="login-form">
+        <h2>Welcome To Shrine Dental Care</h2>
+        <form method="post" action="{% url 'admin:login' %}">
+            {% csrf_token %}
+            <label for="id_username">Username:</label>
+            <input type="text" name="username" id="id_username" required>
+            <label for="id_password">Password:</label>
+            <input type="password" name="password" id="id_password" required>
+            <button type="submit">Log in</button>
+        </form>
+    </div>
+</body>
+</html>
