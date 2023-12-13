@@ -1,0 +1,28 @@
+body {
+    background-color: #f0f0f0; /* You can choose your preferred color */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.appointment-section {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+  }
+  
+  .sec-title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .sec-title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  

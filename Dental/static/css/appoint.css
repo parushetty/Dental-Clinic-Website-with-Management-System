@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;500;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: jost;
+}
+/* navbar */
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;500;700&family=Outfit:wght@400;500;600;700&display=swap');
+input[type="text" ]{
+  color: white;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+body{
+    font-family: jost;
+}
+.navbar-expand-lg .navbar-collapse{
+  justify-content: space-between;
+}
+.navbar-nav{
+    /* margin-left: auto; */
+}          
+
+.contactnav{
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-between;
+  color: #0000008c;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar{
+  position: absolute;
+  width: 98%;
+  z-index: 9999;
+}
+  .nav-item a:hover {
+    color: #1f51a1 !important;
+  }
+  .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #1f51a1;
+  }
+  .btn-outline-success{
+    border-radius: 50px !important;
+    
+    border-radius: 50px !important;
+    color: #1f51a1;
+    background-color: transparent;
+    background-image: none;
+    border-color: #1f51a1;
+  }
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10%;
+}
+  
+
+  
+  .text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    line-height: 25px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+  
+  .responsive-cell-block {
+    min-height: 75px;
+  }
+  
+  .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: flex-start;
+  }
+  
+  .responsive-container-block.bigContainer {
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+  }
+  
+  .responsive-container-block.Container {
+    max-width: 1320px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+  }
+
+/* form */
+
+li,
+ul {
+  border-radius: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sec-title {
+  position: relative;
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+.sec-title .title {
+  text-align: center;
+  position: relative;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 400;
+  padding-right: 50px;
+  margin-bottom: 15px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+.sec-title .title:before {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 7px;
+  width: 40px;
+  height: 1px;
+  background-color: #bbb;
+}
+.sec-title h2 {
+  position: relative;
+  color: #1f51a1;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5em;
+  display: block;
+}
+.sec-title.light h2 {
+  color: #fff;
+}
+.appointment-section {
+  position: relative;
+  padding: 110px 0 80px;
+}
+.appointment-section .form-column {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.form-container{
+  border: 1px solid black; 
+  padding: 20px 20px; 
+  width: 600px; 
+}
+
+.default-form {
+  position: relative;
+}
+
+.default-form .form-group input{
+  width: 100px;
+}
+
+.default-form .form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+.default-form .form-group i {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: #1f51a1;
+  font-size: 18px;
+}
+.default-form .form-group input[type="text"],
+.default-form .form-group input[type="tel"],
+.default-form .form-group input[type="email"],
+.default-form .form-group select {
+  position: relative;
+  display: block;
+  width: 70%;
+  line-height: 28px;
+  padding: 10px 10px;
+  color: #1f51a1;
+  height: 40px;
+  font-size: 13px;
+  background: #fff;
+  border: 1px solid darkblue;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.default-form .form-group input[type="text"]:focus,
+.default-form .form-group input[type="tel"]:focus,
+.default-form .form-group input[type="email"]:focus,
+.default-form .form-group textarea:focus {
+  border-color: #1f51a1;
+}
+.default-form .form-group textarea {
+  position: relative;
+  display: block;
+  width: 50%;
+  line-height: 50px;
+  padding: 150px 20px;
+  color: #797979;
+  height: 120px;
+  background: #fff;
+  resize: none;
+  font-size: 14px;
+  border: 1px solid #d7d7d7;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.default-form .form-group .appointment-btn {
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 11px 30px;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: red;
+  border: 2px solid black;
+  text-transform: uppercase;
+  color: white;
+}
+.default-form .form-group .btn-detail {
+  position: relative;
+  color: #777;
+  font-size: 15px;
+  margin-left: 35px;
+  display: inline-block;
+}
+.appointment-section .schedule-column {
+  position: relative;
+}
+.appointment-section .schedule-column .inner-outer {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.appointment-section .schedule-column .inner-outer:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 347px;
+  height: 100%;
+  background: url(https://i.ibb.co/gjZ1NFM/pattern-Appoinment.png) no-repeat;
+}
+.appointment-section .schedule-column .inner-column {
+  position: relative;
+  padding: 25px 30px;
+  border: 2px solid #1f51a1;
+  background-color: #fff;
+}
+.appointment-section .schedule-column h2 {
+  position: relative;
+  color: #252525;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4em;
+  margin-bottom: 15px;
+}
+.appointment-section .schedule-column .time-list {
+  position: relative;
+}
+.appointment-section .schedule-column .time-list li {
+  position: relative;
+  color: #777;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+.appointment-section .schedule-column .time-list li:last-child {
+  margin-bottom: 0;
+}
+.appointment-section .schedule-column .time-list li strong {
+  color: #222;
+  font-weight: 700;
+}
+.appointment-section .schedule-column .time-list .closed {
+  position: relative;
+  color: #1f51a1;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+ /* Header Section Styles */
+ .appointment-section {
+  background-color: #f7f7f7;
+  padding: 60px 0;
+}
+
+.sec-title {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.sec-title h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+}
+
+.title {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
